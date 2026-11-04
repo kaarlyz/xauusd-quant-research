@@ -1,0 +1,17 @@
+implementation,experiment_id,window_bars,reentry_depth,target_rr,breakouts_count,reentries_count,val_signals,touch_fills,pen_010_fills,pen_020_fills,val_executed_trades,val_win_rate,val_profit_factor,val_net_exp_r
+Phase2_Discovery_Buggy_Shift1,H3_WIN30_DEP25_RR70,30,0.25,0.7,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN30_DEP25_RR80,30,0.25,0.8,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN30_DEP40_RR70,30,0.4,0.7,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN30_DEP40_RR80,30,0.4,0.8,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN45_DEP25_RR70,45,0.25,0.7,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN45_DEP25_RR80,45,0.25,0.8,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN45_DEP40_RR70,45,0.4,0.7,0,0,0,0,0,0,0,0.0,0.0,0.0
+Phase2_Discovery_Buggy_Shift1,H3_WIN45_DEP40_RR80,45,0.4,0.8,0,0,0,0,0,0,0,0.0,0.0,0.0
+Corrected_Spec_Shift2,H3_WIN30_DEP25_RR70,30,0.25,0.7,106614,14465,3400,1955,1759,1563,974,42.81,0.409,-0.3859
+Corrected_Spec_Shift2,H3_WIN30_DEP25_RR80,30,0.25,0.8,106614,14465,3400,1955,1759,1563,974,39.94,0.421,-0.3963
+Corrected_Spec_Shift2,H3_WIN30_DEP40_RR70,30,0.4,0.7,106614,12117,2856,1510,1344,1186,665,44.81,0.445,-0.3505
+Corrected_Spec_Shift2,H3_WIN30_DEP40_RR80,30,0.4,0.8,106614,12117,2856,1510,1344,1186,665,41.5,0.451,-0.3665
+Corrected_Spec_Shift2,H3_WIN45_DEP25_RR70,45,0.25,0.7,109255,14692,2799,1619,1455,1280,805,41.24,0.383,-0.4142
+Corrected_Spec_Shift2,H3_WIN45_DEP25_RR80,45,0.25,0.8,109255,14692,2799,1619,1455,1280,805,39.01,0.405,-0.4145
+Corrected_Spec_Shift2,H3_WIN45_DEP40_RR70,45,0.4,0.7,109255,12379,2344,1251,1113,972,554,42.6,0.404,-0.3923
+Corrected_Spec_Shift2,H3_WIN45_DEP40_RR80,45,0.4,0.8,109255,12379,2344,1251,1113,972,554,40.07,0.423,-0.3967

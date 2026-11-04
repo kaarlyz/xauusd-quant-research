@@ -1,0 +1,5 @@
+model_name,fill_condition_bid,total_trades_12y,win_rate,profit_factor,net_expectancy_r,max_drawdown_r,realism_status
+Model 1: Naive Bid-Touch (Flawed / Ignores Spread),Low_Bid <= Limit,1132,47.17,1.339,0.1793,21.0,UNREALISTIC (Flawed)
+Model 2: True Ask-Touch (Ask reaches Limit),Low_Bid <= Limit - $0.380,1102,39.66,0.986,-0.0086,95.0,STRESS_TEST
+Model 3: True Ask-Penetration 1-Pip (Realistic Queue),Low_Bid <= Limit - $0.480,1090,37.52,0.901,-0.0619,144.5,REALISTIC (Verified)
+Model 4: True Ask-Penetration 2-Pips (Stress Queue),Low_Bid <= Limit - $0.580,1077,35.47,0.824,-0.1133,191.0,STRESS_TEST

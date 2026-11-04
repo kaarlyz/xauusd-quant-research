@@ -1,0 +1,5 @@
+model_id,model_name,quote_side_used,penetration_dollars,total_trades_2015_2024,overall_win_rate,overall_profit_factor,overall_net_expectancy_r,overall_cumulative_net_r,overall_max_drawdown_r,tick_era_2021_2024_trades,tick_era_win_rate,tick_era_profit_factor,tick_era_net_exp_r,status
+M1_Naive_Bid_Touch,Model 1: Naive Bid-Touch (Flawed Baseline),BID_TOUCH,0.0,834,44.48,1.202,0.1121,93.5,21.0,535,45.23,1.239,0.1308,INVALIDATED_DEFECT
+M2_Ask_Touch,Model 2: True Ask-Touch (Spread Adjusted),ASK_TOUCH,0.0,807,35.69,0.832,-0.1078,-87.0,89.5,520,36.35,0.856,-0.0913,REJECTED_NEGATIVE_EDGE
+M3_Ask_Pen_1Pip,Model 3: True Ask-Penetration 1-Pip ($0.10),ASK_PEN_1PIP,0.1,799,33.29,0.749,-0.1677,-134.0,134.0,515,33.79,0.765,-0.1553,REJECTED_NEGATIVE_EDGE
+M4_Ask_Pen_2Pip,Model 4: True Ask-Penetration 2-Pips ($0.20),ASK_PEN_2PIP,0.2,788,30.84,0.669,-0.2291,-180.5,180.5,510,31.76,0.698,-0.2059,REJECTED_NEGATIVE_EDGE

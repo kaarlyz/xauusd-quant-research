@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "date": "2026-11-01",
+    "audit_mandate": "TASK \u2014 INDEPENDENT VALIDATION OF STRAT-08, STRAT-07 & STRAT-01",
+    "asset": "XAUUSD",
+    "dataset_m1_candles": 3821049,
+    "date_range": "2015-01-01 to 2026-10-30",
+    "spread_baseline_dollars": 0.5
+  },
+  "strategy_audits": {
+    "STRAT-07": {
+      "all": {
+        "n_trades": 129,
+        "win_rate": 50.39,
+        "win_rate_ci_95": [
+          41.87,
+          58.88
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.248,
+        "avg_win_r": 0.932,
+        "avg_loss_r": 0.747,
+        "expectancy_r": 0.0992,
+        "expectancy_ci_95": [
+          -0.0696,
+          0.2681
+        ],
+        "t_statistic": 1.163,
+        "p_value": 0.24703,
+        "profit_factor": 1.268,
+        "cumulative_r": 12.8,
+        "max_drawdown_r": 10.42,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 6
+      },
+      "in_sample_2015_2022": {
+        "n_trades": 46,
+        "win_rate": 50.0,
+        "win_rate_ci_95": [
+          36.12,
+          63.88
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.481,
+        "avg_win_r": 0.822,
+        "avg_loss_r": 0.555,
+        "expectancy_r": 0.1336,
+        "expectancy_ci_95": [
+          -0.1207,
+          0.3878
+        ],
+        "t_statistic": 1.058,
+        "p_value": 0.29578,
+        "profit_factor": 1.481,
+        "cumulative_r": 6.14,
+        "max_drawdown_r": 5.33,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 4
+      },
+      "oos_validation_2023_2024": {
+        "n_trades": 19,
+        "win_rate": 47.37,
+        "win_rate_ci_95": [
+          27.33,
+          68.29
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.036,
+        "avg_win_r": 0.917,
+        "avg_loss_r": 0.885,
+        "expectancy_r": -0.0313,
+        "expectancy_ci_95": [
+          -0.5167,
+          0.454
+        ],
+        "t_statistic": -0.136,
+        "p_value": 0.89358,
+        "profit_factor": 0.933,
+        "cumulative_r": -0.6,
+        "max_drawdown_r": 4.35,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 5
+      },
+      "oos_holdout_2025_2026": {
+        "n_trades": 64,
+        "win_rate": 51.56,
+        "win_rate_ci_95": [
+          39.58,
+          63.37
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.2,
+        "avg_win_r": 1.013,
+        "avg_loss_r": 0.844,
+        "expectancy_r": 0.1133,
+        "expectancy_ci_95": [
+          -0.1473,
+          0.3739
+        ],
+        "t_statistic": 0.869,
+        "p_value": 0.3882,
+        "profit_factor": 1.277,
+        "cumulative_r": 7.25,
+        "max_drawdown_r": 6.16,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 4
+      }
+    },
+    "STRAT-01": {
+      "all": {
+        "n_trades": 155,
+        "win_rate": 48.39,
+        "win_rate_ci_95": [
+          40.65,
+          56.2
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.205,
+        "avg_win_r": 0.85,
+        "avg_loss_r": 0.705,
+        "expectancy_r": 0.0517,
+        "expectancy_ci_95": [
+          -0.0928,
+          0.1963
+        ],
+        "t_statistic": 0.707,
+        "p_value": 0.4808,
+        "profit_factor": 1.144,
+        "cumulative_r": 8.02,
+        "max_drawdown_r": 9.08,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 6
+      },
+      "in_sample_2015_2022": {
+        "n_trades": 42,
+        "win_rate": 59.52,
+        "win_rate_ci_95": [
+          44.49,
+          72.96
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.052,
+        "avg_win_r": 0.649,
+        "avg_loss_r": 0.617,
+        "expectancy_r": 0.1368,
+        "expectancy_ci_95": [
+          -0.1196,
+          0.3932
+        ],
+        "t_statistic": 1.077,
+        "p_value": 0.28767,
+        "profit_factor": 1.548,
+        "cumulative_r": 5.74,
+        "max_drawdown_r": 4.16,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 3
+      },
+      "oos_validation_2023_2024": {
+        "n_trades": 28,
+        "win_rate": 32.14,
+        "win_rate_ci_95": [
+          17.93,
+          50.66
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 0.817,
+        "avg_win_r": 0.568,
+        "avg_loss_r": 0.696,
+        "expectancy_r": -0.2647,
+        "expectancy_ci_95": [
+          -0.5412,
+          0.0118
+        ],
+        "t_statistic": -1.965,
+        "p_value": 0.05983,
+        "profit_factor": 0.408,
+        "cumulative_r": -7.41,
+        "max_drawdown_r": 8.33,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 6
+      },
+      "oos_holdout_2025_2026": {
+        "n_trades": 85,
+        "win_rate": 48.24,
+        "win_rate_ci_95": [
+          37.92,
+          58.7
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.391,
+        "avg_win_r": 1.034,
+        "avg_loss_r": 0.743,
+        "expectancy_r": 0.1139,
+        "expectancy_ci_95": [
+          -0.1003,
+          0.3282
+        ],
+        "t_statistic": 1.057,
+        "p_value": 0.29338,
+        "profit_factor": 1.296,
+        "cumulative_r": 9.68,
+        "max_drawdown_r": 7.45,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 5
+      }
+    },
+    "STRAT-08": {
+      "all": {
+        "n_trades": 1277,
+        "win_rate": 45.58,
+        "win_rate_ci_95": [
+          42.86,
+          48.32
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.5,
+        "avg_win_r": 1.484,
+        "avg_loss_r": 0.99,
+        "expectancy_r": 0.1379,
+        "expectancy_ci_95": [
+          0.0699,
+          0.2058
+        ],
+        "t_statistic": 3.981,
+        "p_value": 7e-05,
+        "profit_factor": 1.256,
+        "cumulative_r": 176.07,
+        "max_drawdown_r": 24.58,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 11
+      },
+      "in_sample_2015_2022": {
+        "n_trades": 669,
+        "win_rate": 42.15,
+        "win_rate_ci_95": [
+          38.47,
+          45.93
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.491,
+        "avg_win_r": 1.471,
+        "avg_loss_r": 0.986,
+        "expectancy_r": 0.0494,
+        "expectancy_ci_95": [
+          -0.0434,
+          0.1422
+        ],
+        "t_statistic": 1.046,
+        "p_value": 0.29613,
+        "profit_factor": 1.087,
+        "cumulative_r": 33.05,
+        "max_drawdown_r": 24.58,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 11
+      },
+      "oos_validation_2023_2024": {
+        "n_trades": 309,
+        "win_rate": 44.01,
+        "win_rate_ci_95": [
+          38.59,
+          49.59
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.509,
+        "avg_win_r": 1.5,
+        "avg_loss_r": 0.994,
+        "expectancy_r": 0.1035,
+        "expectancy_ci_95": [
+          -0.0355,
+          0.2425
+        ],
+        "t_statistic": 1.466,
+        "p_value": 0.14379,
+        "profit_factor": 1.186,
+        "cumulative_r": 31.98,
+        "max_drawdown_r": 19.0,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 8
+      },
+      "oos_holdout_2025_2026": {
+        "n_trades": 299,
+        "win_rate": 54.85,
+        "win_rate_ci_95": [
+          49.18,
+          60.39
+        ],
+        "nominal_rr": 1.5,
+        "realized_rr": 1.505,
+        "avg_win_r": 1.495,
+        "avg_loss_r": 0.993,
+        "expectancy_r": 0.3713,
+        "expectancy_ci_95": [
+          0.23,
+          0.5127
+        ],
+        "t_statistic": 5.169,
+        "p_value": 0.0,
+        "profit_factor": 1.828,
+        "cumulative_r": 111.03,
+        "max_drawdown_r": 7.0,
+        "max_daily_loss_r": 1.0,
+        "max_losing_streak": 7
+      }
+    }
+  },
+  "sensitivity_analysis": {
+    "STRAT-07": {
+      "spread_0.3": {
+        "trades": 129,
+        "win_rate": 49.61,
+        "profit_factor": 1.3,
+        "expectancy_r": 0.1128,
+        "max_drawdown_r": 10.29
+      },
+      "spread_0.5": {
+        "trades": 129,
+        "win_rate": 50.39,
+        "profit_factor": 1.268,
+        "expectancy_r": 0.0992,
+        "max_drawdown_r": 10.42
+      },
+      "spread_0.75": {
+        "trades": 129,
+        "win_rate": 49.61,
+        "profit_factor": 1.177,
+        "expectancy_r": 0.0648,
+        "max_drawdown_r": 9.79
+      },
+      "spread_1.0": {
+        "trades": 129,
+        "win_rate": 47.29,
+        "profit_factor": 1.073,
+        "expectancy_r": 0.0269,
+        "max_drawdown_r": 10.29
+      }
+    },
+    "STRAT-01": {
+      "spread_0.3": {
+        "trades": 156,
+        "win_rate": 50.0,
+        "profit_factor": 1.17,
+        "expectancy_r": 0.0633,
+        "max_drawdown_r": 9.62
+      },
+      "spread_0.5": {
+        "trades": 155,
+        "win_rate": 48.39,
+        "profit_factor": 1.144,
+        "expectancy_r": 0.0517,
+        "max_drawdown_r": 9.08
+      },
+      "spread_0.75": {
+        "trades": 153,
+        "win_rate": 46.41,
+        "profit_factor": 1.097,
+        "expectancy_r": 0.0347,
+        "max_drawdown_r": 11.02
+      },
+      "spread_1.0": {
+        "trades": 153,
+        "win_rate": 46.41,
+        "profit_factor": 1.07,
+        "expectancy_r": 0.0245,
+        "max_drawdown_r": 12.18
+      }
+    },
+    "STRAT-08": {
+      "spread_0.3": {
+        "trades": 1044,
+        "win_rate": 48.28,
+        "profit_factor": 1.393,
+        "expectancy_r": 0.2018,
+        "max_drawdown_r": 17.68
+      },
+      "spread_0.5": {
+        "trades": 1277,
+        "win_rate": 45.58,
+        "profit_factor": 1.256,
+        "expectancy_r": 0.1379,
+        "max_drawdown_r": 24.58
+      },
+      "spread_0.75": {
+        "trades": 1484,
+        "win_rate": 40.57,
+        "profit_factor": 1.019,
+        "expectancy_r": 0.011,
+        "max_drawdown_r": 74.77
+      },
+      "spread_1.0": {
+        "trades": 1484,
+        "win_rate": 38.27,
+        "profit_factor": 0.918,
+        "expectancy_r": -0.0504,
+        "max_drawdown_r": 146.88
+      }
+    }
+  },
+  "multiple_testing_correction": {
+    "STRAT-07": {
+      "raw_p": 0.24703,
+      "holm_adjusted_p": 0.49406,
+      "bh_fdr_p": 0.37054
+    },
+    "STRAT-01": {
+      "raw_p": 0.4808,
+      "holm_adjusted_p": 0.4808,
+      "bh_fdr_p": 0.4808
+    },
+    "STRAT-08": {
+      "raw_p": 7e-05,
+      "holm_adjusted_p": 0.00021,
+      "bh_fdr_p": 0.00021
+    }
+  },
+  "combined_portfolio": {
+    "performance": {
+      "n_trades": 1561,
+      "win_rate": 46.25,
+      "win_rate_ci_95": [
+        43.79,
+        48.73
+      ],
+      "nominal_rr": 1.5,
+      "realized_rr": 1.449,
+      "avg_win_r": 1.369,
+      "avg_loss_r": 0.944,
+      "expectancy_r": 0.1261,
+      "expectancy_ci_95": [
+        0.0671,
+        0.1851
+      ],
+      "t_statistic": 4.193,
+      "p_value": 3e-05,
+      "profit_factor": 1.249,
+      "cumulative_r": 196.89,
+      "max_drawdown_r": 25.12,
+      "max_daily_loss_r": 2.0,
+      "max_losing_streak": 10
+    },
+    "correlations": {
+      "STRAT-07_vs_STRAT-01": 0.0332,
+      "STRAT-07_vs_STRAT-08": -0.037,
+      "STRAT-01_vs_STRAT-08": 0.0271
+    },
+    "simultaneous_exposure_overlaps": 11
+  },
+  "the5ers_2500_simulation": {
+    "monte_carlo_iterations": 10000,
+    "initial_risk_per_trade_dollars": 15.0,
+    "initial_risk_pct": 0.6,
+    "step1_target_pct": 10.0,
+    "step2_target_pct": 5.0,
+    "max_drawdown_limit_pct": 10.0,
+    "daily_drawdown_limit_pct": 5.0,
+    "step1_pass_rate_pct": 77.76,
+    "step2_pass_rate_from_step1_pct": 82.72,
+    "complete_funded_pass_rate_pct": 64.32,
+    "daily_loss_violation_rate_pct": 32.28,
+    "max_loss_violation_rate_pct": 0.0,
+    "step1_median_trades": 85,
+    "step2_median_trades": 37,
+    "total_median_calendar_days": 199,
+    "fastest_calendar_days_p10": 106,
+    "slowest_calendar_days_p90": 346
+  }
+}

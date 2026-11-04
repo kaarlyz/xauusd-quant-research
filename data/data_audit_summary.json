@@ -1,0 +1,34 @@
+{
+  "m1_parquet": {
+    "path": "/home/vallencia/Projects/myfxjournal/server/data/market-data/XAUUSD_M1.parquet",
+    "sha256": "771ae44ae2774e1b067dd9955d00c38e5058185370449c756746f6f65107dfd6",
+    "size_bytes": 110994986,
+    "total_candles": 4182209,
+    "coverage_start": "2015-01-01T23:00:00+00:00",
+    "coverage_end": "2026-10-30T20:59:00+00:00"
+  },
+  "target_window_2021_2026": {
+    "candles_present": 1769576,
+    "target_specified": 1768274,
+    "difference": 1302,
+    "duplicates": 0,
+    "negative_timestamp_steps": 0,
+    "invalid_ohlc_violations": 0,
+    "zero_prices": 0,
+    "weekend_gaps": 262,
+    "intraday_gaps": 1390
+  },
+  "tick_dataset": {
+    "path": "/home/vallencia/Projects/myfxjournal/server/data/market-data/partitions_tick",
+    "partition_count": 359,
+    "size_gb": 4.83,
+    "bid_ask_available": true,
+    "spread_available": true,
+    "coverage_years": "2020 to 2026 (100% covers 2021-08-23 to 2026-08-21)"
+  },
+  "hash_resolution": {
+    "target_hash_requested": "3c668724ed39012ea0b440d50f6b909f8271f257b053eea49d90be1bdd8f4534",
+    "standalone_file_with_target_hash_found": false,
+    "origin_of_target_count_and_hash": "Derived from historical SQLite dump (commit 22365e3 in myfxjournal) with 1,768,274 rows. The master canonical Parquet contains 1,769,576 candles in the same window (including 1,302 Sunday 22:00-23:00 UTC rollover bars)."
+  }
+}

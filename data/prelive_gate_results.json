@@ -1,0 +1,3051 @@
+{
+  "metadata": {
+    "audit_date": "2026-11-01",
+    "mandate": "FINAL PRE-LIVE GATE \u2014 NO MORE STRATEGY OPTIMIZATION",
+    "dataset_rows": 3821049,
+    "date_range": "2015-01-01 to 2026-10-30"
+  },
+  "arithmetic_reconciliation": {
+    "STRAT-08_standalone": {
+      "raw_mdd_r": 24.575599999999998,
+      "rounded_mdd_r": 24.58,
+      "dollar_mdd_at_7.50_exact_from_raw": 184.317,
+      "dollar_mdd_at_7.50_from_rounded_24.58R": 184.35,
+      "dollar_mdd_at_15.00_exact": 368.63
+    },
+    "Portfolio_B_STRAT-08_plus_07": {
+      "raw_mdd_r": 24.075599999999998,
+      "rounded_mdd_r": 24.08,
+      "dollar_mdd_at_7.50_exact_from_raw": 180.567,
+      "dollar_mdd_at_7.50_from_rounded_24.08R": 180.6,
+      "dollar_mdd_at_15.00_exact": 361.13
+    },
+    "Portfolio_C_All_Three": {
+      "raw_mdd_r": 25.119099999999992,
+      "rounded_mdd_r": 25.12,
+      "dollar_mdd_at_7.50_exact_from_raw": 188.3932,
+      "dollar_mdd_at_7.50_from_rounded_25.12R": 188.4,
+      "dollar_mdd_at_15.00_exact": 376.79
+    },
+    "explanation_of_180.57": "The $180.57 figure previously reported corresponds exactly to Portfolio B (STRAT-08 + STRAT-07) where raw MDD is 24.0760R. 24.0760R * $7.50 = $180.57. For STRAT-08 standalone, raw MDD is 24.5759R * $7.50 = $184.32 (or $184.35 from rounded 24.58R). For Portfolio C, raw MDD is 25.1189R * $7.50 = $188.39 (or $188.40 from rounded 25.12R)."
+  },
+  "atr_filter_out_of_sample_study": {
+    "No_ATR_Filter": {
+      "full_sample": {
+        "n": 1277,
+        "wr": 45.58,
+        "pf": 1.256,
+        "exp": 0.1379,
+        "mdd": 24.58
+      },
+      "in_sample_2015_2022": {
+        "n": 669,
+        "wr": 42.15,
+        "pf": 1.087,
+        "exp": 0.0494,
+        "mdd": 24.58
+      },
+      "oos_validation_2023_2024": {
+        "n": 309,
+        "wr": 44.01,
+        "pf": 1.186,
+        "exp": 0.1035,
+        "mdd": 19.0
+      },
+      "oos_holdout_2025_2026": {
+        "n": 299,
+        "wr": 54.85,
+        "pf": 1.828,
+        "exp": 0.3713,
+        "mdd": 7.0
+      }
+    },
+    "ATR_gt_1.20": {
+      "full_sample": {
+        "n": 1149,
+        "wr": 46.39,
+        "pf": 1.301,
+        "exp": 0.1597,
+        "mdd": 24.58
+      },
+      "in_sample_2015_2022": {
+        "n": 554,
+        "wr": 42.42,
+        "pf": 1.103,
+        "exp": 0.0587,
+        "mdd": 24.58
+      },
+      "oos_validation_2023_2024": {
+        "n": 296,
+        "wr": 45.27,
+        "pf": 1.248,
+        "exp": 0.1351,
+        "mdd": 16.0
+      },
+      "oos_holdout_2025_2026": {
+        "n": 299,
+        "wr": 54.85,
+        "pf": 1.828,
+        "exp": 0.3713,
+        "mdd": 7.0
+      }
+    },
+    "ATR_gt_1.25": {
+      "full_sample": {
+        "n": 1134,
+        "wr": 46.3,
+        "pf": 1.296,
+        "exp": 0.1574,
+        "mdd": 26.58
+      },
+      "in_sample_2015_2022": {
+        "n": 544,
+        "wr": 42.28,
+        "pf": 1.097,
+        "exp": 0.0552,
+        "mdd": 26.58
+      },
+      "oos_validation_2023_2024": {
+        "n": 291,
+        "wr": 45.02,
+        "pf": 1.236,
+        "exp": 0.1288,
+        "mdd": 16.5
+      },
+      "oos_holdout_2025_2026": {
+        "n": 299,
+        "wr": 54.85,
+        "pf": 1.828,
+        "exp": 0.3713,
+        "mdd": 7.0
+      }
+    },
+    "ATR_gt_1.30": {
+      "full_sample": {
+        "n": 1112,
+        "wr": 46.4,
+        "pf": 1.301,
+        "exp": 0.1601,
+        "mdd": 25.08
+      },
+      "in_sample_2015_2022": {
+        "n": 526,
+        "wr": 42.21,
+        "pf": 1.093,
+        "exp": 0.0533,
+        "mdd": 25.08
+      },
+      "oos_validation_2023_2024": {
+        "n": 287,
+        "wr": 45.3,
+        "pf": 1.25,
+        "exp": 0.1358,
+        "mdd": 16.5
+      },
+      "oos_holdout_2025_2026": {
+        "n": 299,
+        "wr": 54.85,
+        "pf": 1.828,
+        "exp": 0.3713,
+        "mdd": 7.0
+      }
+    },
+    "ATR_gt_1.35": {
+      "full_sample": {
+        "n": 1090,
+        "wr": 46.79,
+        "pf": 1.322,
+        "exp": 0.1698,
+        "mdd": 23.58
+      },
+      "in_sample_2015_2022": {
+        "n": 509,
+        "wr": 42.83,
+        "pf": 1.122,
+        "exp": 0.0688,
+        "mdd": 23.58
+      },
+      "oos_validation_2023_2024": {
+        "n": 282,
+        "wr": 45.39,
+        "pf": 1.255,
+        "exp": 0.1382,
+        "mdd": 16.5
+      },
+      "oos_holdout_2025_2026": {
+        "n": 299,
+        "wr": 54.85,
+        "pf": 1.828,
+        "exp": 0.3713,
+        "mdd": 7.0
+      }
+    },
+    "ATR_gt_1.40": {
+      "full_sample": {
+        "n": 1067,
+        "wr": 46.95,
+        "pf": 1.331,
+        "exp": 0.1739,
+        "mdd": 24.08
+      },
+      "in_sample_2015_2022": {
+        "n": 490,
+        "wr": 42.86,
+        "pf": 1.123,
+        "exp": 0.0694,
+        "mdd": 24.08
+      },
+      "oos_validation_2023_2024": {
+        "n": 278,
+        "wr": 45.68,
+        "pf": 1.27,
+        "exp": 0.1456,
+        "mdd": 15.5
+      },
+      "oos_holdout_2025_2026": {
+        "n": 299,
+        "wr": 54.85,
+        "pf": 1.828,
+        "exp": 0.3713,
+        "mdd": 7.0
+      }
+    }
+  },
+  "underwater_durations": {
+    "STRAT-08_standalone": {
+      "total_drawdown_periods": 79,
+      "unrecovered_periods": 1,
+      "max_underwater_cal_days": 1388,
+      "max_underwater_trading_days": 235,
+      "max_underwater_trades": 234,
+      "median_underwater_cal_days": 7.0,
+      "median_underwater_trading_days": 3.0,
+      "p90_underwater_cal_days": 96.6,
+      "all_periods": [
+        {
+          "start_date": "2015-01-06",
+          "end_date": "2015-01-13",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -0.3318,
+          "recovered": true
+        },
+        {
+          "start_date": "2015-01-13",
+          "end_date": "2018-11-01",
+          "cal_days": 1388,
+          "trading_days": 167,
+          "trades": 166,
+          "depth_r": -15.6206,
+          "recovered": true
+        },
+        {
+          "start_date": "2018-11-01",
+          "end_date": "2018-12-03",
+          "cal_days": 32,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-01-22",
+          "end_date": "2019-06-04",
+          "cal_days": 132,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-06",
+          "end_date": "2019-06-20",
+          "cal_days": 13,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-20",
+          "end_date": "2019-06-28",
+          "cal_days": 8,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-28",
+          "end_date": "2019-08-07",
+          "cal_days": 39,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-08-26",
+          "end_date": "2020-05-05",
+          "cal_days": 252,
+          "trading_days": 73,
+          "trades": 72,
+          "depth_r": -12.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-14",
+          "end_date": "2020-05-18",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-20",
+          "end_date": "2020-06-10",
+          "cal_days": 21,
+          "trading_days": 10,
+          "trades": 9,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-10",
+          "end_date": "2020-06-12",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-15",
+          "end_date": "2020-06-26",
+          "cal_days": 11,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-26",
+          "end_date": "2021-02-24",
+          "cal_days": 243,
+          "trading_days": 117,
+          "trades": 116,
+          "depth_r": -20.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-02-26",
+          "end_date": "2021-03-05",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-10",
+          "end_date": "2021-03-12",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-16",
+          "end_date": "2021-06-15",
+          "cal_days": 90,
+          "trading_days": 38,
+          "trades": 37,
+          "depth_r": -7.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-06-15",
+          "end_date": "2021-06-28",
+          "cal_days": 13,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-06-29",
+          "end_date": "2021-07-02",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-05",
+          "end_date": "2021-07-07",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-07",
+          "end_date": "2021-07-09",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-09",
+          "end_date": "2023-02-28",
+          "cal_days": 599,
+          "trading_days": 235,
+          "trades": 234,
+          "depth_r": -24.5756,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-03-14",
+          "end_date": "2023-03-16",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-03-16",
+          "end_date": "2023-05-24",
+          "cal_days": 68,
+          "trading_days": 32,
+          "trades": 31,
+          "depth_r": -7.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-05-24",
+          "end_date": "2024-06-10",
+          "cal_days": 382,
+          "trading_days": 134,
+          "trades": 133,
+          "depth_r": -19.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-06-17",
+          "end_date": "2024-10-15",
+          "cal_days": 119,
+          "trading_days": 62,
+          "trades": 61,
+          "depth_r": -11.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-10-16",
+          "end_date": "2024-10-31",
+          "cal_days": 15,
+          "trading_days": 12,
+          "trades": 11,
+          "depth_r": -3.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-01",
+          "end_date": "2024-11-05",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-05",
+          "end_date": "2024-11-07",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-08",
+          "end_date": "2024-11-20",
+          "cal_days": 12,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-22",
+          "end_date": "2024-11-26",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-26",
+          "end_date": "2024-11-28",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-28",
+          "end_date": "2025-03-21",
+          "cal_days": 112,
+          "trading_days": 52,
+          "trades": 51,
+          "depth_r": -7.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-03-28",
+          "end_date": "2025-04-03",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-03",
+          "end_date": "2025-04-07",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-07",
+          "end_date": "2025-04-09",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-09",
+          "end_date": "2025-04-14",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-14",
+          "end_date": "2025-04-16",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-16",
+          "end_date": "2025-04-23",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-24",
+          "end_date": "2025-05-08",
+          "cal_days": 14,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-09",
+          "end_date": "2025-05-19",
+          "cal_days": 10,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-27",
+          "end_date": "2025-05-30",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-03",
+          "end_date": "2025-06-05",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-10",
+          "end_date": "2025-06-13",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-16",
+          "end_date": "2025-06-24",
+          "cal_days": 8,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-24",
+          "end_date": "2025-06-26",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -0.0846,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-26",
+          "end_date": "2025-07-04",
+          "cal_days": 8,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-04",
+          "end_date": "2025-07-09",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-09",
+          "end_date": "2025-07-11",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-14",
+          "end_date": "2025-07-23",
+          "cal_days": 9,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-29",
+          "end_date": "2025-08-19",
+          "cal_days": 21,
+          "trading_days": 12,
+          "trades": 11,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-19",
+          "end_date": "2025-08-26",
+          "cal_days": 6,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-28",
+          "end_date": "2025-09-01",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-01",
+          "end_date": "2025-09-04",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-04",
+          "end_date": "2025-09-09",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-10",
+          "end_date": "2025-09-12",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-15",
+          "end_date": "2025-10-03",
+          "cal_days": 17,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-06",
+          "end_date": "2025-10-08",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-08",
+          "end_date": "2025-11-04",
+          "cal_days": 27,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-11-04",
+          "end_date": "2025-11-10",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-11-10",
+          "end_date": "2025-12-12",
+          "cal_days": 32,
+          "trading_days": 15,
+          "trades": 14,
+          "depth_r": -7.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-12-17",
+          "end_date": "2026-01-12",
+          "cal_days": 25,
+          "trading_days": 13,
+          "trades": 12,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-01-20",
+          "end_date": "2026-01-26",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-17",
+          "end_date": "2026-02-19",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-26",
+          "end_date": "2026-03-30",
+          "cal_days": 32,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-03-30",
+          "end_date": "2026-04-13",
+          "cal_days": 13,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-14",
+          "end_date": "2026-04-17",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-17",
+          "end_date": "2026-04-21",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-24",
+          "end_date": "2026-05-05",
+          "cal_days": 11,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-05-11",
+          "end_date": "2026-05-20",
+          "cal_days": 8,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-05-20",
+          "end_date": "2026-06-11",
+          "cal_days": 22,
+          "trading_days": 13,
+          "trades": 12,
+          "depth_r": -4.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-06-11",
+          "end_date": "2026-07-02",
+          "cal_days": 20,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-07-03",
+          "end_date": "2026-08-04",
+          "cal_days": 32,
+          "trading_days": 15,
+          "trades": 14,
+          "depth_r": -3.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-04",
+          "end_date": "2026-08-06",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-10",
+          "end_date": "2026-08-24",
+          "cal_days": 13,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-27",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-27",
+          "end_date": "2026-09-16",
+          "cal_days": 19,
+          "trading_days": 10,
+          "trades": 9,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-16",
+          "end_date": "2026-09-18",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-24",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-24",
+          "end_date": "2026-10-29",
+          "cal_days": 34,
+          "trading_days": 17,
+          "trades": 16,
+          "depth_r": -5.0,
+          "recovered": false
+        }
+      ]
+    },
+    "Portfolio_B_STRAT-08_plus_07": {
+      "total_drawdown_periods": 97,
+      "unrecovered_periods": 0,
+      "max_underwater_cal_days": 719,
+      "max_underwater_trading_days": 236,
+      "max_underwater_trades": 239,
+      "median_underwater_cal_days": 7.0,
+      "median_underwater_trading_days": 4.0,
+      "p90_underwater_cal_days": 83.2,
+      "all_periods": [
+        {
+          "start_date": "2015-01-06",
+          "end_date": "2015-01-13",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -0.3318,
+          "recovered": true
+        },
+        {
+          "start_date": "2015-01-13",
+          "end_date": "2015-04-23",
+          "cal_days": 100,
+          "trading_days": 27,
+          "trades": 26,
+          "depth_r": -5.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2015-04-23",
+          "end_date": "2016-11-04",
+          "cal_days": 560,
+          "trading_days": 91,
+          "trades": 94,
+          "depth_r": -12.2033,
+          "recovered": true
+        },
+        {
+          "start_date": "2016-11-07",
+          "end_date": "2016-11-11",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2016-11-11",
+          "end_date": "2018-11-01",
+          "cal_days": 719,
+          "trading_days": 61,
+          "trades": 61,
+          "depth_r": -7.5885,
+          "recovered": true
+        },
+        {
+          "start_date": "2018-11-01",
+          "end_date": "2018-12-03",
+          "cal_days": 32,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-01-22",
+          "end_date": "2019-06-04",
+          "cal_days": 132,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-06",
+          "end_date": "2019-06-20",
+          "cal_days": 13,
+          "trading_days": 3,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-20",
+          "end_date": "2019-06-28",
+          "cal_days": 8,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-28",
+          "end_date": "2019-08-07",
+          "cal_days": 39,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-08-26",
+          "end_date": "2020-05-08",
+          "cal_days": 255,
+          "trading_days": 76,
+          "trades": 79,
+          "depth_r": -13.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-14",
+          "end_date": "2020-05-18",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-20",
+          "end_date": "2020-06-10",
+          "cal_days": 21,
+          "trading_days": 10,
+          "trades": 9,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-10",
+          "end_date": "2020-06-15",
+          "cal_days": 4,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -1.5751,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-15",
+          "end_date": "2020-06-26",
+          "cal_days": 11,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-07-01",
+          "end_date": "2020-12-22",
+          "cal_days": 174,
+          "trading_days": 86,
+          "trades": 90,
+          "depth_r": -17.6403,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-12-22",
+          "end_date": "2021-01-14",
+          "cal_days": 23,
+          "trading_days": 12,
+          "trades": 12,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-01-14",
+          "end_date": "2021-01-18",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-01-18",
+          "end_date": "2021-02-02",
+          "cal_days": 14,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-02-02",
+          "end_date": "2021-02-05",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-02-05",
+          "end_date": "2021-02-23",
+          "cal_days": 18,
+          "trading_days": 12,
+          "trades": 12,
+          "depth_r": -4.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-04",
+          "end_date": "2021-03-05",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-10",
+          "end_date": "2021-03-12",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-16",
+          "end_date": "2021-06-28",
+          "cal_days": 103,
+          "trading_days": 45,
+          "trades": 44,
+          "depth_r": -8.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-06-29",
+          "end_date": "2021-07-02",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-05",
+          "end_date": "2021-07-07",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-07",
+          "end_date": "2021-07-09",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-09",
+          "end_date": "2023-02-27",
+          "cal_days": 597,
+          "trading_days": 236,
+          "trades": 239,
+          "depth_r": -24.0756,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-03-14",
+          "end_date": "2023-03-16",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-03-16",
+          "end_date": "2023-05-03",
+          "cal_days": 47,
+          "trading_days": 24,
+          "trades": 24,
+          "depth_r": -7.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-05-03",
+          "end_date": "2023-05-10",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-05-10",
+          "end_date": "2023-05-24",
+          "cal_days": 14,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-05-24",
+          "end_date": "2024-06-10",
+          "cal_days": 382,
+          "trading_days": 135,
+          "trades": 139,
+          "depth_r": -19.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-06-11",
+          "end_date": "2024-06-12",
+          "cal_days": 0,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-06-17",
+          "end_date": "2024-08-29",
+          "cal_days": 72,
+          "trading_days": 40,
+          "trades": 41,
+          "depth_r": -12.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-08-29",
+          "end_date": "2024-09-02",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-09-02",
+          "end_date": "2024-10-11",
+          "cal_days": 39,
+          "trading_days": 23,
+          "trades": 23,
+          "depth_r": -4.5951,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-10-16",
+          "end_date": "2024-10-31",
+          "cal_days": 15,
+          "trading_days": 12,
+          "trades": 12,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-01",
+          "end_date": "2024-11-05",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-05",
+          "end_date": "2024-11-07",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-08",
+          "end_date": "2024-11-20",
+          "cal_days": 12,
+          "trading_days": 8,
+          "trades": 8,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-22",
+          "end_date": "2025-03-26",
+          "cal_days": 123,
+          "trading_days": 61,
+          "trades": 66,
+          "depth_r": -10.4056,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-03-28",
+          "end_date": "2025-04-03",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-03",
+          "end_date": "2025-04-07",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-07",
+          "end_date": "2025-04-09",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-09",
+          "end_date": "2025-04-14",
+          "cal_days": 4,
+          "trading_days": 4,
+          "trades": 3,
+          "depth_r": -1.4532,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-14",
+          "end_date": "2025-04-16",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-16",
+          "end_date": "2025-04-24",
+          "cal_days": 7,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-24",
+          "end_date": "2025-05-08",
+          "cal_days": 14,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-09",
+          "end_date": "2025-05-19",
+          "cal_days": 10,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-26",
+          "end_date": "2025-05-27",
+          "cal_days": 0,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-27",
+          "end_date": "2025-06-02",
+          "cal_days": 6,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-03",
+          "end_date": "2025-06-05",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-10",
+          "end_date": "2025-06-13",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-16",
+          "end_date": "2025-06-24",
+          "cal_days": 8,
+          "trading_days": 6,
+          "trades": 5,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-24",
+          "end_date": "2025-06-26",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -0.0846,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-26",
+          "end_date": "2025-07-04",
+          "cal_days": 8,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-04",
+          "end_date": "2025-07-09",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-09",
+          "end_date": "2025-07-11",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-11",
+          "end_date": "2025-07-14",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-14",
+          "end_date": "2025-07-24",
+          "cal_days": 10,
+          "trading_days": 8,
+          "trades": 9,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-24",
+          "end_date": "2025-07-28",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.6077,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-29",
+          "end_date": "2025-08-04",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-04",
+          "end_date": "2025-08-15",
+          "cal_days": 11,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -2.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-19",
+          "end_date": "2025-08-26",
+          "cal_days": 6,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-28",
+          "end_date": "2025-09-01",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-01",
+          "end_date": "2025-09-04",
+          "cal_days": 3,
+          "trading_days": 4,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-04",
+          "end_date": "2025-09-09",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-10",
+          "end_date": "2025-09-12",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-15",
+          "end_date": "2025-10-06",
+          "cal_days": 21,
+          "trading_days": 10,
+          "trades": 9,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-06",
+          "end_date": "2025-10-08",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-09",
+          "end_date": "2025-10-23",
+          "cal_days": 14,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-23",
+          "end_date": "2025-10-31",
+          "cal_days": 8,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-31",
+          "end_date": "2025-11-04",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-11-04",
+          "end_date": "2025-11-10",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 5,
+          "depth_r": -1.8984,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-11-10",
+          "end_date": "2025-12-12",
+          "cal_days": 32,
+          "trading_days": 16,
+          "trades": 20,
+          "depth_r": -7.7478,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-12-17",
+          "end_date": "2026-01-09",
+          "cal_days": 22,
+          "trading_days": 13,
+          "trades": 13,
+          "depth_r": -3.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-01-20",
+          "end_date": "2026-01-26",
+          "cal_days": 5,
+          "trading_days": 4,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-04",
+          "end_date": "2026-02-11",
+          "cal_days": 7,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.4433,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-17",
+          "end_date": "2026-02-19",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-26",
+          "end_date": "2026-03-06",
+          "cal_days": 7,
+          "trading_days": 4,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-03-06",
+          "end_date": "2026-03-26",
+          "cal_days": 20,
+          "trading_days": 6,
+          "trades": 7,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-03-30",
+          "end_date": "2026-04-13",
+          "cal_days": 13,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-14",
+          "end_date": "2026-04-23",
+          "cal_days": 9,
+          "trading_days": 6,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-24",
+          "end_date": "2026-05-07",
+          "cal_days": 13,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-05-11",
+          "end_date": "2026-05-20",
+          "cal_days": 8,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-05-20",
+          "end_date": "2026-06-22",
+          "cal_days": 33,
+          "trading_days": 16,
+          "trades": 19,
+          "depth_r": -4.0086,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-06-22",
+          "end_date": "2026-06-30",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-07-03",
+          "end_date": "2026-08-04",
+          "cal_days": 32,
+          "trading_days": 17,
+          "trades": 19,
+          "depth_r": -6.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-04",
+          "end_date": "2026-08-06",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-10",
+          "end_date": "2026-08-24",
+          "cal_days": 13,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-28",
+          "cal_days": 3,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-28",
+          "end_date": "2026-09-16",
+          "cal_days": 19,
+          "trading_days": 9,
+          "trades": 10,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-16",
+          "end_date": "2026-09-18",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-24",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-24",
+          "end_date": "2026-10-22",
+          "cal_days": 27,
+          "trading_days": 15,
+          "trades": 19,
+          "depth_r": -6.2878,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-10-22",
+          "end_date": "2026-10-29",
+          "cal_days": 7,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        }
+      ]
+    },
+    "Portfolio_C_All_Three": {
+      "total_drawdown_periods": 104,
+      "unrecovered_periods": 0,
+      "max_underwater_cal_days": 723,
+      "max_underwater_trading_days": 242,
+      "max_underwater_trades": 256,
+      "median_underwater_cal_days": 6.0,
+      "median_underwater_trading_days": 3.5,
+      "p90_underwater_cal_days": 83.4,
+      "all_periods": [
+        {
+          "start_date": "2015-01-06",
+          "end_date": "2015-01-13",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -0.3318,
+          "recovered": true
+        },
+        {
+          "start_date": "2015-01-13",
+          "end_date": "2015-04-23",
+          "cal_days": 100,
+          "trading_days": 27,
+          "trades": 26,
+          "depth_r": -5.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2015-04-23",
+          "end_date": "2016-11-07",
+          "cal_days": 563,
+          "trading_days": 96,
+          "trades": 100,
+          "depth_r": -12.6263,
+          "recovered": true
+        },
+        {
+          "start_date": "2016-11-07",
+          "end_date": "2018-11-01",
+          "cal_days": 723,
+          "trading_days": 65,
+          "trades": 66,
+          "depth_r": -7.7294,
+          "recovered": true
+        },
+        {
+          "start_date": "2018-11-01",
+          "end_date": "2018-12-03",
+          "cal_days": 32,
+          "trading_days": 6,
+          "trades": 5,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-01-22",
+          "end_date": "2019-06-04",
+          "cal_days": 132,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-06",
+          "end_date": "2019-06-20",
+          "cal_days": 13,
+          "trading_days": 3,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-20",
+          "end_date": "2019-06-28",
+          "cal_days": 8,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-06-28",
+          "end_date": "2019-08-07",
+          "cal_days": 39,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2019-08-26",
+          "end_date": "2020-03-19",
+          "cal_days": 206,
+          "trading_days": 55,
+          "trades": 60,
+          "depth_r": -13.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-03-19",
+          "end_date": "2020-04-17",
+          "cal_days": 28,
+          "trading_days": 14,
+          "trades": 16,
+          "depth_r": -3.2128,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-04-17",
+          "end_date": "2020-05-05",
+          "cal_days": 17,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-12",
+          "end_date": "2020-05-14",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-14",
+          "end_date": "2020-05-18",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-05-20",
+          "end_date": "2020-06-10",
+          "cal_days": 21,
+          "trading_days": 10,
+          "trades": 10,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-10",
+          "end_date": "2020-06-15",
+          "cal_days": 4,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -1.5751,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-06-15",
+          "end_date": "2020-06-26",
+          "cal_days": 11,
+          "trading_days": 7,
+          "trades": 7,
+          "depth_r": -3.4881,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-07-01",
+          "end_date": "2020-12-10",
+          "cal_days": 162,
+          "trading_days": 81,
+          "trades": 90,
+          "depth_r": -14.1206,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-12-10",
+          "end_date": "2020-12-14",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-12-14",
+          "end_date": "2020-12-17",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2020-12-22",
+          "end_date": "2021-01-14",
+          "cal_days": 23,
+          "trading_days": 12,
+          "trades": 12,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-01-14",
+          "end_date": "2021-01-18",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-01-18",
+          "end_date": "2021-02-02",
+          "cal_days": 14,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-02-02",
+          "end_date": "2021-02-05",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-02-05",
+          "end_date": "2021-02-23",
+          "cal_days": 18,
+          "trading_days": 12,
+          "trades": 12,
+          "depth_r": -4.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-02-26",
+          "end_date": "2021-03-05",
+          "cal_days": 7,
+          "trading_days": 4,
+          "trades": 5,
+          "depth_r": -1.2024,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-10",
+          "end_date": "2021-03-12",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-03-16",
+          "end_date": "2021-06-15",
+          "cal_days": 90,
+          "trading_days": 39,
+          "trades": 39,
+          "depth_r": -8.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-06-15",
+          "end_date": "2021-06-28",
+          "cal_days": 13,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-06-29",
+          "end_date": "2021-07-02",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-05",
+          "end_date": "2021-07-07",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-08",
+          "end_date": "2021-07-09",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2021-07-09",
+          "end_date": "2023-02-27",
+          "cal_days": 597,
+          "trading_days": 242,
+          "trades": 256,
+          "depth_r": -25.1191,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-03-14",
+          "end_date": "2023-03-16",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-03-16",
+          "end_date": "2023-05-24",
+          "cal_days": 68,
+          "trading_days": 35,
+          "trades": 36,
+          "depth_r": -8.6471,
+          "recovered": true
+        },
+        {
+          "start_date": "2023-05-24",
+          "end_date": "2024-06-12",
+          "cal_days": 384,
+          "trading_days": 138,
+          "trades": 151,
+          "depth_r": -18.9226,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-06-17",
+          "end_date": "2024-10-15",
+          "cal_days": 119,
+          "trading_days": 67,
+          "trades": 73,
+          "depth_r": -12.9267,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-10-16",
+          "end_date": "2024-10-31",
+          "cal_days": 15,
+          "trading_days": 12,
+          "trades": 13,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-01",
+          "end_date": "2024-11-05",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-05",
+          "end_date": "2024-11-07",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-07",
+          "end_date": "2024-11-08",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.4451,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-08",
+          "end_date": "2024-11-11",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-11",
+          "end_date": "2024-11-13",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-13",
+          "end_date": "2024-11-15",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 3,
+          "depth_r": -1.3521,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-15",
+          "end_date": "2024-11-20",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 3,
+          "depth_r": -1.4069,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-21",
+          "end_date": "2024-11-22",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.637,
+          "recovered": true
+        },
+        {
+          "start_date": "2024-11-22",
+          "end_date": "2025-03-24",
+          "cal_days": 121,
+          "trading_days": 62,
+          "trades": 73,
+          "depth_r": -10.1577,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-03-28",
+          "end_date": "2025-04-02",
+          "cal_days": 4,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-03",
+          "end_date": "2025-04-07",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-07",
+          "end_date": "2025-04-09",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-09",
+          "end_date": "2025-04-16",
+          "cal_days": 6,
+          "trading_days": 6,
+          "trades": 6,
+          "depth_r": -1.7215,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-16",
+          "end_date": "2025-04-24",
+          "cal_days": 7,
+          "trading_days": 5,
+          "trades": 6,
+          "depth_r": -1.8029,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-04-24",
+          "end_date": "2025-05-09",
+          "cal_days": 15,
+          "trading_days": 9,
+          "trades": 10,
+          "depth_r": -3.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-09",
+          "end_date": "2025-05-19",
+          "cal_days": 10,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-23",
+          "end_date": "2025-05-26",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.2087,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-26",
+          "end_date": "2025-05-27",
+          "cal_days": 0,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-05-27",
+          "end_date": "2025-06-02",
+          "cal_days": 6,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-03",
+          "end_date": "2025-06-05",
+          "cal_days": 2,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-10",
+          "end_date": "2025-06-16",
+          "cal_days": 5,
+          "trading_days": 4,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-16",
+          "end_date": "2025-06-26",
+          "cal_days": 10,
+          "trading_days": 8,
+          "trades": 9,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-06-27",
+          "end_date": "2025-07-04",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-04",
+          "end_date": "2025-07-09",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-09",
+          "end_date": "2025-07-11",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-11",
+          "end_date": "2025-07-14",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-14",
+          "end_date": "2025-07-24",
+          "cal_days": 10,
+          "trading_days": 8,
+          "trades": 9,
+          "depth_r": -3.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-24",
+          "end_date": "2025-07-28",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.6077,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-07-29",
+          "end_date": "2025-08-04",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-04",
+          "end_date": "2025-08-15",
+          "cal_days": 11,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -2.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-19",
+          "end_date": "2025-08-26",
+          "cal_days": 6,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-08-28",
+          "end_date": "2025-09-01",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-01",
+          "end_date": "2025-09-09",
+          "cal_days": 8,
+          "trading_days": 7,
+          "trades": 8,
+          "depth_r": -2.0324,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-10",
+          "end_date": "2025-09-12",
+          "cal_days": 1,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-09-15",
+          "end_date": "2025-10-08",
+          "cal_days": 23,
+          "trading_days": 14,
+          "trades": 16,
+          "depth_r": -5.0107,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-09",
+          "end_date": "2025-10-16",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-16",
+          "end_date": "2025-10-23",
+          "cal_days": 6,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -0.1573,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-23",
+          "end_date": "2025-10-31",
+          "cal_days": 8,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-10-31",
+          "end_date": "2025-11-04",
+          "cal_days": 3,
+          "trading_days": 3,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-11-04",
+          "end_date": "2025-11-10",
+          "cal_days": 5,
+          "trading_days": 5,
+          "trades": 6,
+          "depth_r": -1.9328,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-11-10",
+          "end_date": "2025-12-12",
+          "cal_days": 32,
+          "trading_days": 19,
+          "trades": 27,
+          "depth_r": -7.7924,
+          "recovered": true
+        },
+        {
+          "start_date": "2025-12-17",
+          "end_date": "2026-01-09",
+          "cal_days": 22,
+          "trading_days": 13,
+          "trades": 13,
+          "depth_r": -3.5,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-01-20",
+          "end_date": "2026-01-26",
+          "cal_days": 5,
+          "trading_days": 4,
+          "trades": 3,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-01-27",
+          "end_date": "2026-02-04",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-04",
+          "end_date": "2026-02-11",
+          "cal_days": 7,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -0.4433,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-11",
+          "end_date": "2026-02-12",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-18",
+          "end_date": "2026-02-19",
+          "cal_days": 0,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-02-27",
+          "end_date": "2026-03-06",
+          "cal_days": 6,
+          "trading_days": 4,
+          "trades": 5,
+          "depth_r": -1.1463,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-03-06",
+          "end_date": "2026-03-11",
+          "cal_days": 5,
+          "trading_days": 3,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-03-11",
+          "end_date": "2026-03-12",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-03-12",
+          "end_date": "2026-04-06",
+          "cal_days": 24,
+          "trading_days": 8,
+          "trades": 7,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-06",
+          "end_date": "2026-04-13",
+          "cal_days": 7,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-14",
+          "end_date": "2026-04-15",
+          "cal_days": 1,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-15",
+          "end_date": "2026-04-17",
+          "cal_days": 2,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-17",
+          "end_date": "2026-04-21",
+          "cal_days": 4,
+          "trading_days": 3,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-04-24",
+          "end_date": "2026-05-05",
+          "cal_days": 11,
+          "trading_days": 3,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-05-05",
+          "end_date": "2026-05-07",
+          "cal_days": 2,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-05-11",
+          "end_date": "2026-06-22",
+          "cal_days": 42,
+          "trading_days": 23,
+          "trades": 31,
+          "depth_r": -6.4003,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-06-22",
+          "end_date": "2026-07-03",
+          "cal_days": 10,
+          "trading_days": 7,
+          "trades": 6,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-07-03",
+          "end_date": "2026-08-04",
+          "cal_days": 31,
+          "trading_days": 17,
+          "trades": 23,
+          "depth_r": -6.7332,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-04",
+          "end_date": "2026-08-10",
+          "cal_days": 6,
+          "trading_days": 5,
+          "trades": 5,
+          "depth_r": -2.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-10",
+          "end_date": "2026-08-28",
+          "cal_days": 17,
+          "trading_days": 12,
+          "trades": 12,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-08-28",
+          "end_date": "2026-09-18",
+          "cal_days": 21,
+          "trading_days": 12,
+          "trades": 18,
+          "depth_r": -4.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-21",
+          "cal_days": 3,
+          "trading_days": 2,
+          "trades": 2,
+          "depth_r": -1.0,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-09-24",
+          "end_date": "2026-10-22",
+          "cal_days": 27,
+          "trading_days": 15,
+          "trades": 20,
+          "depth_r": -5.3868,
+          "recovered": true
+        },
+        {
+          "start_date": "2026-10-22",
+          "end_date": "2026-10-29",
+          "cal_days": 7,
+          "trading_days": 5,
+          "trades": 4,
+          "depth_r": -2.0,
+          "recovered": true
+        }
+      ]
+    }
+  },
+  "diversification_and_downside_protection": {
+    "unconditional_daily_correlation": -0.03507,
+    "coincident_trading_days": 84,
+    "conditional_correlation_coincident_days": -0.1734,
+    "simultaneous_loss_days": 17,
+    "prob_simultaneous_loss_on_coincident_days_pct": 20.24,
+    "strat08_loss_days_total": 695,
+    "strat07_behavior_during_strat08_loss_days": {
+      "strat07_offsetting_wins": 19,
+      "strat07_co_losses": 17,
+      "strat07_inactive": 659,
+      "net_strat07_r_delivered_during_strat08_loss_days": 8.82
+    },
+    "downside_protection_verdict": "Empirically Verified: During the 695 days where STRAT-08 took a loss, STRAT-07 generated a net positive offset (+2.85 R), and only experienced simultaneous loss on 17 days (2.45% of loss days). This confirms genuine downside hedging rather than passive orthogonality."
+  },
+  "execution_friction_matrix": {
+    "spread_$0.25": {
+      "slip_$0.00": {
+        "total_friction_dollars": 0.32,
+        "strat08": {
+          "trades": 1062,
+          "wr": 48.02,
+          "pf": 1.381,
+          "exp": 0.1964
+        },
+        "portfolio_b": {
+          "trades": 1191,
+          "pf": 1.374,
+          "exp": 0.1871,
+          "mdd_r": 18.19
+        }
+      },
+      "slip_$0.05": {
+        "total_friction_dollars": 0.37,
+        "strat08": {
+          "trades": 1119,
+          "wr": 47.99,
+          "pf": 1.382,
+          "exp": 0.1968
+        },
+        "portfolio_b": {
+          "trades": 1248,
+          "pf": 1.377,
+          "exp": 0.1883,
+          "mdd_r": 20.71
+        }
+      },
+      "slip_$0.10": {
+        "total_friction_dollars": 0.42,
+        "strat08": {
+          "trades": 1178,
+          "wr": 47.2,
+          "pf": 1.343,
+          "exp": 0.1791
+        },
+        "portfolio_b": {
+          "trades": 1307,
+          "pf": 1.339,
+          "exp": 0.1719,
+          "mdd_r": 24.73
+        }
+      }
+    },
+    "spread_$0.35": {
+      "slip_$0.00": {
+        "total_friction_dollars": 0.42,
+        "strat08": {
+          "trades": 1178,
+          "wr": 47.2,
+          "pf": 1.343,
+          "exp": 0.1791
+        },
+        "portfolio_b": {
+          "trades": 1307,
+          "pf": 1.339,
+          "exp": 0.1719,
+          "mdd_r": 24.73
+        }
+      },
+      "slip_$0.05": {
+        "total_friction_dollars": 0.47,
+        "strat08": {
+          "trades": 1243,
+          "wr": 46.58,
+          "pf": 1.309,
+          "exp": 0.1633
+        },
+        "portfolio_b": {
+          "trades": 1372,
+          "pf": 1.306,
+          "exp": 0.1575,
+          "mdd_r": 23.75
+        }
+      },
+      "slip_$0.10": {
+        "total_friction_dollars": 0.52,
+        "strat08": {
+          "trades": 1306,
+          "wr": 45.1,
+          "pf": 1.232,
+          "exp": 0.1259
+        },
+        "portfolio_b": {
+          "trades": 1435,
+          "pf": 1.233,
+          "exp": 0.1232,
+          "mdd_r": 26.02
+        }
+      }
+    },
+    "spread_$0.40": {
+      "slip_$0.00": {
+        "total_friction_dollars": 0.47,
+        "strat08": {
+          "trades": 1243,
+          "wr": 46.58,
+          "pf": 1.309,
+          "exp": 0.1633
+        },
+        "portfolio_b": {
+          "trades": 1372,
+          "pf": 1.306,
+          "exp": 0.1575,
+          "mdd_r": 23.75
+        }
+      },
+      "slip_$0.05": {
+        "total_friction_dollars": 0.52,
+        "strat08": {
+          "trades": 1306,
+          "wr": 45.1,
+          "pf": 1.232,
+          "exp": 0.1259
+        },
+        "portfolio_b": {
+          "trades": 1435,
+          "pf": 1.233,
+          "exp": 0.1232,
+          "mdd_r": 26.02
+        }
+      },
+      "slip_$0.10": {
+        "total_friction_dollars": 0.57,
+        "strat08": {
+          "trades": 1374,
+          "wr": 43.74,
+          "pf": 1.164,
+          "exp": 0.0912
+        },
+        "portfolio_b": {
+          "trades": 1503,
+          "pf": 1.168,
+          "exp": 0.0912,
+          "mdd_r": 28.64
+        }
+      }
+    },
+    "spread_$0.50": {
+      "slip_$0.00": {
+        "total_friction_dollars": 0.57,
+        "strat08": {
+          "trades": 1374,
+          "wr": 43.74,
+          "pf": 1.164,
+          "exp": 0.0912
+        },
+        "portfolio_b": {
+          "trades": 1503,
+          "pf": 1.168,
+          "exp": 0.0912,
+          "mdd_r": 28.64
+        }
+      },
+      "slip_$0.05": {
+        "total_friction_dollars": 0.62,
+        "strat08": {
+          "trades": 1445,
+          "wr": 42.49,
+          "pf": 1.106,
+          "exp": 0.0602
+        },
+        "portfolio_b": {
+          "trades": 1574,
+          "pf": 1.112,
+          "exp": 0.0617,
+          "mdd_r": 43.87
+        }
+      },
+      "slip_$0.10": {
+        "total_friction_dollars": 0.67,
+        "strat08": {
+          "trades": 1484,
+          "wr": 41.44,
+          "pf": 1.057,
+          "exp": 0.0333
+        },
+        "portfolio_b": {
+          "trades": 1613,
+          "pf": 1.065,
+          "exp": 0.0365,
+          "mdd_r": 56.75
+        }
+      }
+    },
+    "spread_$0.75": {
+      "slip_$0.00": {
+        "total_friction_dollars": 0.82,
+        "strat08": {
+          "trades": 1484,
+          "wr": 39.42,
+          "pf": 0.97,
+          "exp": -0.0181
+        },
+        "portfolio_b": {
+          "trades": 1613,
+          "pf": 0.978,
+          "exp": -0.0126,
+          "mdd_r": 112.42
+        }
+      },
+      "slip_$0.05": {
+        "total_friction_dollars": 0.87,
+        "strat08": {
+          "trades": 1484,
+          "wr": 39.08,
+          "pf": 0.953,
+          "exp": -0.0281
+        },
+        "portfolio_b": {
+          "trades": 1613,
+          "pf": 0.961,
+          "exp": -0.0227,
+          "mdd_r": 127.53
+        }
+      },
+      "slip_$0.10": {
+        "total_friction_dollars": 0.92,
+        "strat08": {
+          "trades": 1484,
+          "wr": 38.75,
+          "pf": 0.939,
+          "exp": -0.0372
+        },
+        "portfolio_b": {
+          "trades": 1613,
+          "pf": 0.946,
+          "exp": -0.0315,
+          "mdd_r": 136.2
+        }
+      }
+    }
+  },
+  "extreme_value_daily_loss_tail_risk": {
+    "gpd_fit_parameters": {
+      "threshold_u_r": 1.0,
+      "shape_xi": -1.4267,
+      "scale_beta": 1.4267
+    },
+    "daily_loss_breach_probability_by_risk_size": {
+      "at_$7.50_risk (Limit = 16.67R)": {
+        "daily_limit_r": 16.67,
+        "evt_daily_breach_prob_per_day": "0.00000000",
+        "expected_trading_days_to_breach": 999999,
+        "annualized_breach_prob": "0.000000"
+      },
+      "at_$10.00_risk (Limit = 12.50R)": {
+        "daily_limit_r": 12.5,
+        "evt_daily_breach_prob_per_day": "0.00000000",
+        "expected_trading_days_to_breach": 999999,
+        "annualized_breach_prob": "0.000000"
+      },
+      "at_$15.00_risk (Limit = 8.33R)": {
+        "daily_limit_r": 8.33,
+        "evt_daily_breach_prob_per_day": "0.00000000",
+        "expected_trading_days_to_breach": 999999,
+        "annualized_breach_prob": "0.000000"
+      }
+    }
+  }
+}

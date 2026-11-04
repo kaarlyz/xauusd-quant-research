@@ -1,0 +1,7 @@
+hypothesis_family,trade_outcome,direction,gross_pnl_dollars,commission_dollars,net_pnl_dollars,nominal_r,gross_r,realized_r,friction_drag_r,cost_drag_pct_of_risk
+H1_Liquidity_Sweep,WIN,LONG,4.5,0.4339,4.0661,0.6,0.6,0.5421,0.0579,5.79
+H1_Liquidity_Sweep,LOSS,LONG,-7.6923,0.2692,-7.9615,-1.0,-1.0256,-1.0615,0.0359,3.59
+H2_Mean_Reversion,WIN,LONG,3.75,0.2178,3.5322,0.5,0.5,0.471,0.029,2.9
+H2_Mean_Reversion,LOSS,LONG,-2.9717,0.4953,-3.467,-1.0,-0.3962,-0.4623,0.066,6.6
+H4_Micro_Momentum,WIN,LONG,3.75,0.7609,2.9891,0.5,0.5,0.3986,0.1014,10.14
+H4_Micro_Momentum,LOSS,LONG,-8.0474,0.7664,-8.8139,-1.0,-1.073,-1.1752,0.1022,10.22

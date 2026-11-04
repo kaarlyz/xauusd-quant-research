@@ -1,0 +1,5 @@
+strategy,outcome,order_type,direction,ref_bid_price,ref_ask_price,entry_fill_price,nominal_sl_price,nominal_tp_price,exit_fill_price,spread_cost_per_oz,entry_slippage_per_oz,exit_slippage_per_oz,commission_round_per_oz,stop_distance_dollars,position_size_lots,position_size_ounces,initial_dollar_risk,gross_price_pnl_dollars,commission_total_dollars,net_realized_pnl_dollars,gross_r,net_realized_r,ledger_drag_r,total_economic_drag_r
+STRAT-08,WIN,LIMIT,LONG,2650.0,2650.38,2650.0,2647.5,2653.75,2653.75,0.0,0.0,0.0,0.07,2.5,0.03,3.0,7.5,11.25,0.21,11.04,1.5,1.472,0.028,0.028
+STRAT-08,LOSS,LIMIT,LONG,2650.0,2650.38,2650.0,2647.5,2653.75,2647.45,0.0,0.0,0.05,0.07,2.5,0.03,3.0,7.5,-7.65,0.21,-7.86,-1.02,-1.048,0.028,0.048
+H4_Micro_Momentum,WIN,MARKET,LONG,2650.0,2650.38,2650.4300000000003,2649.75,2650.7700000000004,2650.7700000000004,0.38,0.05,0.0,0.07,0.680000000000291,0.11029,11.029,7.5,3.75,0.7721,2.9779,0.5,0.3971,0.1029,0.7353
+H4_Micro_Momentum,LOSS,MARKET,LONG,2650.0,2650.38,2650.4300000000003,2649.75,2650.7700000000004,2649.7,0.38,0.05,0.05,0.07,0.680000000000291,0.11029,11.029,7.5,-8.0515,0.7721,-8.8235,-1.0735,-1.1765,0.1029,0.8088

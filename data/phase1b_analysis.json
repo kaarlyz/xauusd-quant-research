@@ -1,0 +1,176 @@
+{
+  "total_ticks": 405106965,
+  "min_tick_size": 0.0009999999992942321,
+  "tick_coverage_start": "2020-01-01T23:00:04+00:00",
+  "tick_coverage_end": "2026-10-30T20:59:59+00:00",
+  "hourly_spread_stats": {
+    "0": {
+      "session": "Tokyo",
+      "median": 0.413,
+      "mean": 0.4899,
+      "p95": 0.87,
+      "max": 10.6
+    },
+    "1": {
+      "session": "Tokyo",
+      "median": 0.41,
+      "mean": 0.4853,
+      "p95": 0.87,
+      "max": 2.397
+    },
+    "2": {
+      "session": "Tokyo",
+      "median": 0.4,
+      "mean": 0.4752,
+      "p95": 0.88,
+      "max": 2.34
+    },
+    "3": {
+      "session": "Tokyo",
+      "median": 0.399,
+      "mean": 0.4668,
+      "p95": 0.84,
+      "max": 2.517
+    },
+    "4": {
+      "session": "Tokyo",
+      "median": 0.398,
+      "mean": 0.4614,
+      "p95": 0.81,
+      "max": 1.794
+    },
+    "5": {
+      "session": "Tokyo",
+      "median": 0.4,
+      "mean": 0.4652,
+      "p95": 0.82,
+      "max": 2.294
+    },
+    "6": {
+      "session": "Tokyo",
+      "median": 0.392,
+      "mean": 0.4542,
+      "p95": 0.81,
+      "max": 2.217
+    },
+    "7": {
+      "session": "London",
+      "median": 0.384,
+      "mean": 0.4372,
+      "p95": 0.72,
+      "max": 2.414
+    },
+    "8": {
+      "session": "London",
+      "median": 0.377,
+      "mean": 0.4283,
+      "p95": 0.71,
+      "max": 1.832
+    },
+    "9": {
+      "session": "London",
+      "median": 0.377,
+      "mean": 0.4313,
+      "p95": 0.717,
+      "max": 3.442
+    },
+    "10": {
+      "session": "London",
+      "median": 0.374,
+      "mean": 0.426,
+      "p95": 0.71,
+      "max": 3.01
+    },
+    "11": {
+      "session": "London",
+      "median": 0.377,
+      "mean": 0.4276,
+      "p95": 0.72,
+      "max": 1.824
+    },
+    "12": {
+      "session": "London/NY Overlap",
+      "median": 0.384,
+      "mean": 0.4353,
+      "p95": 0.74,
+      "max": 3.377
+    },
+    "13": {
+      "session": "London/NY Overlap",
+      "median": 0.384,
+      "mean": 0.4373,
+      "p95": 0.747,
+      "max": 3.044
+    },
+    "14": {
+      "session": "London/NY Overlap",
+      "median": 0.384,
+      "mean": 0.4405,
+      "p95": 0.764,
+      "max": 1.94
+    },
+    "15": {
+      "session": "London/NY Overlap",
+      "median": 0.377,
+      "mean": 0.4348,
+      "p95": 0.76,
+      "max": 2.994
+    },
+    "16": {
+      "session": "NY Afternoon",
+      "median": 0.371,
+      "mean": 0.4319,
+      "p95": 0.75,
+      "max": 1.614
+    },
+    "17": {
+      "session": "NY Afternoon",
+      "median": 0.374,
+      "mean": 0.4321,
+      "p95": 0.75,
+      "max": 2.182
+    },
+    "18": {
+      "session": "NY Afternoon",
+      "median": 0.374,
+      "mean": 0.4335,
+      "p95": 0.744,
+      "max": 2.12
+    },
+    "19": {
+      "session": "NY Afternoon",
+      "median": 0.367,
+      "mean": 0.4233,
+      "p95": 0.72,
+      "max": 1.949
+    },
+    "20": {
+      "session": "NY Afternoon",
+      "median": 0.397,
+      "mean": 0.4644,
+      "p95": 0.79,
+      "max": 7.15
+    },
+    "21": {
+      "session": "ROLLOVER (Blacklist)",
+      "median": 0.42,
+      "mean": 0.4734,
+      "p95": 0.797,
+      "max": 4.25
+    },
+    "22": {
+      "session": "ROLLOVER (Blacklist)",
+      "median": 0.517,
+      "mean": 0.6444,
+      "p95": 1.35,
+      "max": 11.82
+    },
+    "23": {
+      "session": "ROLLOVER (Blacklist)",
+      "median": 0.46,
+      "mean": 0.5878,
+      "p95": 1.23,
+      "max": 6.674
+    }
+  }
+}
